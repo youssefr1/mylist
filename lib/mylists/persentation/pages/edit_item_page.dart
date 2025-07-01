@@ -90,7 +90,7 @@ class _EditListPageState extends State<EditListPage> {
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(12),
-                        child: Image.network(imageUrls[index], fit: BoxFit.cover),
+                        child: Image.network(imageUrls[index], fit: BoxFit.contain),
                       ),
                     ),
                   );
